@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 
 //
-const UserController = require('./routes/UserController')
+const UsersController = require('./routes/UsersController')
 
 
 mongoose.Promise = global.Promise
