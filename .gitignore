@@ -57,9 +57,4 @@ typings/
 # dotenv environment variables file
 .env
 
-<<<<<<< HEAD
-# ignore build for Heroku
 client/build/
-=======
-client/build/
->>>>>>> d15d5145f21dab26ce9e7946991feb7b00d99b6d
