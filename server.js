@@ -3,6 +3,11 @@ require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
+
+//
+const UserController = require('./routes/UserController')
+
+
 mongoose.Promise = global.Promise
 // Create a new app using express
 const app = express()
@@ -23,6 +28,7 @@ connection.on('error', (err) => {
 // Inject middleware
 app.use(express.static(`${__dirname}/client/build`))
 app.use(bodyParser.json())
+app.use('/api/users', UserController)
 
 app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/client/build/index.html`)
