@@ -7,38 +7,22 @@
     "node": "8.6.0"
   },
   "scripts": {
-<<<<<<< HEAD
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "concurrently 'nodemon server.js' 'cd client && npm start'",
-=======
     "start": "node server.js",
     "dev": "concurrently 'nodemon server.js' 'cd client && npm start'",
     "test": "echo \"Error: no test specified\" && exit 1",
->>>>>>> d15d5145f21dab26ce9e7946991feb7b00d99b6d
     "postinstall": "cd client && npm i && npm run build"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
-    "url": "git+https://github.com/uniOpifex/wdi12-idea-board.git"
-=======
     "url": "git+https://github.com/king0120/wdi12-idea-board.git"
->>>>>>> d15d5145f21dab26ce9e7946991feb7b00d99b6d
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-<<<<<<< HEAD
-    "url": "https://github.com/uniOpifex/wdi12-idea-board/issues"
-  },
-  "homepage": "https://github.com/uniOpifex/wdi12-idea-board#readme",
-=======
     "url": "https://github.com/king0120/wdi12-idea-board/issues"
   },
   "homepage": "https://github.com/king0120/wdi12-idea-board#readme",
->>>>>>> d15d5145f21dab26ce9e7946991feb7b00d99b6d
   "dependencies": {
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.0",
